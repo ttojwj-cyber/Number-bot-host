@@ -29,12 +29,12 @@ logger = logging.getLogger(__name__)
 # ==========================================
 # Configuration (Environment Variables Recommended)
 # ==========================================
-TOKEN = os.environ.get("BOT_TOKEN", "8880791372:AAFcZs6ICGpAvKr9yme6iOLILBE7a1En0Ko")
+TOKEN = os.environ.get("BOT_TOKEN", "8659777806:AAHw3IUUx0feMuaW6y4CRPDUTSpnop1Zn4M")
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}/"
 
 OWNER_ID = int(os.environ.get("OWNER_ID", 2062838711))
-BOT_USERNAME = "A2pPremiumBazar_bot"
+BOT_USERNAME = "A2pPremiumBazar1_bot"
 DB_FILE = "bot_data.db"
 
 # ==========================================
